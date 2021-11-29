@@ -1,0 +1,336 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1709600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "navigate to url and checking the login page",
+        "description": "",
+        "id": "negative-case;navigate-to-url-and-checking-the-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 118000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6834421700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user launching browser",
+            "match": {
+              "location": "Stepdefination.user_launching_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5830600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "navigate to url",
+            "match": {
+              "location": "Stepdefination.navigate_to_url()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 72000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Enter username and Password",
+        "description": "",
+        "id": "negative-case;enter-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 59500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 355883600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter the username \"Rbnbalan092\" and password \"90439273922\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rbnbalan092\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"90439273922\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Stepdefination.user_enter_the_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 450634300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click login button",
+            "match": {
+              "location": "Stepdefination.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.AssumptionViolatedException: Negative crediential is pass\r\n\tat org.junit.Assume.assumeTrue(Assume.java:59)\r\n\tat Stepdefination.Stepdefination.verified_user_login(Stepdefination.java:69)\r\n\tat ✽.verified user login(src/test/resources/Negativelogin.feature:14)\r\n",
+              "duration": 20094192300,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verified user login",
+            "match": {
+              "location": "Stepdefination.verified_user_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 149200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Enter username and Password",
+        "description": "",
+        "id": "negative-case;enter-username-and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 39000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 270027300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter the username \"Rbnbalan0922\" and password \"9043927392\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rbnbalan0922\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"9043927392\"",
+                  "offset": 52
+                }
+              ],
+              "location": "Stepdefination.user_enter_the_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 493595500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click login button",
+            "match": {
+              "location": "Stepdefination.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.AssumptionViolatedException: Negative crediential is pass\r\n\tat org.junit.Assume.assumeTrue(Assume.java:59)\r\n\tat Stepdefination.Stepdefination.verified_user_login(Stepdefination.java:69)\r\n\tat ✽.verified user login(src/test/resources/Negativelogin.feature:14)\r\n",
+              "duration": 20018082500,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verified user login",
+            "match": {
+              "location": "Stepdefination.verified_user_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Negative case",
+    "description": "  I want to use this template for my feature file",
+    "id": "negative-case",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Negativelogin.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 105200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Enter username and Password",
+        "description": "",
+        "id": "positive-case;enter-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 49500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 312047800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter the username \"Rbnbalan092\" and password \"9043927392\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rbnbalan092\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"9043927392\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Stepdefination.user_enter_the_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1183373300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click login button",
+            "match": {
+              "location": "Stepdefination.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 738366700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verified user login",
+            "match": {
+              "location": "Stepdefination.verified_user_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Positive case",
+    "description": "  I want to use this template for my feature file",
+    "id": "positive-case",
+    "keyword": "Feature",
+    "uri": "src/test/resources/login.feature",
+    "tags": []
+  }
+]
